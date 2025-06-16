@@ -20,7 +20,6 @@ This beginner project helps understand file operations, structures, and basic da
 2. Compile using a C++ compiler:  
    ```bash
    g++ student_manager.cpp -o manager
-3. Run the program
+3. Run the program:
  ./manager      # For Linux/Mac  
 manager.exe    # For Windows
-
