@@ -1,21 +1,26 @@
 # student-record-manager
-A simple C++ console application to manage student records using file handling. Built to practice basic programming and data management skills.
+A simple C++ console application to manage student records using file handling.  
+This beginner project helps understand file operations, structures, and basic data handling.
 
 ## 📌 Features
-- Add a new student record
-- View all student records
-- Search by roll number
-- Delete or update student data
-- Save records in a text file
 
-## 🛠 Technologies
-- C++
-- File I/O
-- CLI-based user interface
+- ➕ Add new student records  
+- 📃 View all student records  
+- ❌ Delete a student by roll number  
+- ✏️ Update student details (name/marks)  
 
-## 🚀 Getting Started
-1. Clone the repository
-2. Compile the code using:
+## 🛠 How It Works
+
+- Student records are saved in a file named `students.txt`
+- This file is **automatically created** and updated by the program — no setup required
+
+## 🚀 How to Run
+
+1. Save the code as `student_manager.cpp`
+2. Compile using a C++ compiler:  
    ```bash
    g++ student_manager.cpp -o manager
-   ./manager
+3. Run the program
+ ./manager      # For Linux/Mac  
+manager.exe    # For Windows
+
